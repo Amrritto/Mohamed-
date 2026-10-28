@@ -756,7 +756,7 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 const modal=$('#modal'),close=()=>modal.classList.remove('open');
 $('#seal').onclick=()=>{modal.classList.add('open');if(show&&!RM)rocket()};$('#close').onclick=close;
 modal.addEventListener('click',e=>{if(e.target===modal)close()});addEventListener('keydown',e=>{if(e.key==='Escape')close()});
-const RSVP_EMAIL='Amralialshahwy@gmail.com';
+const RSVP_EMAIL='Shenomohamed324@gmail.com';
 $('#form').addEventListener('submit',async e=>{
  e.preventDefault();const f=e.target,btn=$('#send'),d=Object.fromEntries(new FormData(f));
  btn.disabled=true;btn.innerHTML='<span>بنبعت…</span>';
